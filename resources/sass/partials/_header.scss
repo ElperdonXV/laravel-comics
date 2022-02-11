@@ -1,0 +1,29 @@
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    &__list{
+        list-style: none;
+        display: flex;
+        gap: 18px;
+    }
+    &__list-item a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            text-transform: upppercase;
+            font-size: 1.2em;
+            &:hover, &:active, &:focus {
+                color: #0282F9;
+            }
+            &.active{
+                color: #0282F9;
+                border-bottom: 5px solid #0282F9;
+                padding-bottom: 32px;
+            }
+        }
+}
+.header__logo{
+    width: 60px;
+}
