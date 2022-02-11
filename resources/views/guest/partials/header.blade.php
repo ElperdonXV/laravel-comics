@@ -1,3 +1,3 @@
-<header>
-    <h1>Hello i'm header!</h1>
+<header class="container-90">
+    <img src="{{asset('img/dc-logo.png')}}" alt="">
 </header>
