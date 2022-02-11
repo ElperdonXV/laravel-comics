@@ -231,6 +231,6 @@ Route::get('/', function () {
         ],
     ],
 ];
-    $data = ['comics' => config('comics'), 'home'=> 'DC Comics - Home'];
+    $data = ['comics' => config('comics'), 'nomePagina'=> 'DC Comics - Home'];
     return view('guest.home', $data);
 })->name('home');
