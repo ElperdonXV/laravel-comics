@@ -10,6 +10,7 @@
 <body>
     <div class="container">
         @include('guest.partials.header')
+        @include('guest.partials.jumbotron')
         @yield('content')
         @include('guest.partials.footer')       
     </div>
