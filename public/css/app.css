@@ -9247,8 +9247,13 @@ html {
   margin: 0 auto;
 }
 
+.relative {
+  position: relative;
+}
+
 .bg-prod {
   background-color: #303030;
+  padding: 40px 0;
 }
 
 .products {
@@ -9278,6 +9283,36 @@ html {
   margin-top: 7px;
   margin-bottom: 15px;
   font-weight: 500;
+}
+
+.bottom {
+  background-color: #0282F9;
+  height: 170px;
+  display: flex;
+  align-items: center;
+}
+
+.bottom ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bottom ul li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 40px;
+}
+
+.bottom ul li span {
+  color: white;
+  text-transform: uppercase;
+}
+
+.bottom ul li img {
+  height: 100%;
 }
 
 .header__nav {
@@ -9346,5 +9381,106 @@ html {
   background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.jumbotron .title {
+  position: absolute;
+  bottom: -25px;
+  left: 80px;
+  background-color: #0282F9;
+  padding: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.jumbotron .title h2 {
+  color: white;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+h1 {
+  color: white;
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+
+.footer-top {
+  height: 400px;
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.footer-top .big-col-sx {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.footer-top .big-col-sx .footer-menu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 40px;
+}
+
+.footer-top .logo {
+  top: -25px;
+  right: 0;
+  position: absolute;
+}
+
+.footer-top .logo img {
+  position: absolute;
+  top: -68px;
+  right: 55px;
+  height: 450px;
+}
+
+.footer-bottom {
+  background-color: #303030;
+  padding: 30px 0;
+}
+
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-end #button {
+  font-size: 1.3em;
+  color: white;
+  padding: 10px;
+  border: 3px solid #0282F9;
+}
+
+.footer-end .social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-end .social h3 {
+  color: #0282F9;
+  text-transform: uppercase;
+}
+
+.footer-end .social .icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
 

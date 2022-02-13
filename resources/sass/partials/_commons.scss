@@ -18,8 +18,13 @@ html{
     margin: 0 auto;
 }
 
+.relative{
+    position: relative;
+}
+
 .bg-prod{
     background-color: #303030;
+    padding: 40px 0;
 }
 
 .products{
@@ -47,3 +52,30 @@ html{
         }
     }
 }
+
+.bottom{
+        background-color: #0282F9;
+        height: 170px;
+        display: flex;
+        align-items: center;
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            li{
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                height: 40px;
+            }
+            li span{
+                color: white;
+                text-transform: uppercase;
+            }
+            li img{
+                height: 100%;
+            }
+        }
+    }
+
