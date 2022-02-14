@@ -117,3 +117,46 @@ html{
 .comic-top{
     padding-top: 90px;
 }
+
+.justify-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-comic{
+    color: white;
+    padding-right: 70px;
+}
+
+.avaible{
+    height: 50px;
+    background-color: #0282F9;
+    margin-bottom: 2.3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left, .right{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .left{
+        border-right: 5px solid #303030;
+        padding-left: 30px;
+        h3{
+            opacity: 0.8;
+            font-size: 1.2em;
+        }
+        span{
+            margin-left: 1em;
+            font-weight: bold;
+        }
+    }
+    .right{
+        justify-content: center;  
+        i{
+            align-self: center;
+        }
+    }
+}

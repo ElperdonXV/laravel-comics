@@ -16,12 +16,22 @@
         <span>{{$comic['price']}}</span>
     </div>
     <div class="comic-top">
-            <span>AVAIBLE</span>
-            <button><select name="Check Avaibility" id="">
-            <option value="ciao">Ciao</option>
-            <option value="hello">Hello</option>
-            </select></button>
-            <p>{{$comic['description']}}</p>
+            <div class="justify-between">
+                <div class="info-comic">
+                    <div class="avaible">
+                        <div class="left">
+                            <h3>STATUS:</h3>
+                            <span>AVAIBLE</span>
+                        </div>
+                        <div class="right">
+                            <h3>Check avaibility</h3>
+                            <i class="fa-solid fa-sort-down"></i>
+                        </div>
+                    </div>
+                    <p class="info-comic">{{$comic['description']}}</p>
+                </div>
+                <img src="{{asset('img/adv.jpg')}}" alt="">
+            </div>
     </div>
     <div class="credits">
         <div class="artist">
