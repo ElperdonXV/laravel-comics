@@ -79,16 +79,41 @@ html{
         }
     }
 
-.title{
-            position: absolute;
-            top: -70px;
-            left: 0px;
-            background-color: #0282F9;
-            padding: 10px;
-            width: 250px;
-            text-align: center;
-            h2{
-                color: white;
-                text-transform: uppercase;
-            }
-        }
+.jumbo-text{
+    position: absolute;
+    background-color: #0282F9;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    top: -70px;
+    left: 0px;
+    h2{
+        color: white;
+        text-transform: uppercase;
+    }
+}
+
+.jumbo-img{
+    position: absolute;
+    top: -220px;
+    left: 0px;
+    border: 8px solid white;
+}
+.comic-title{
+    margin-left: 230px;
+    padding-top: 22px;
+    h2, span{
+        color: white;
+    }
+    h2{
+        font-size: 2em;
+    }
+    span{
+        color: #0282F9;
+        font-weight: 700;
+        font-size: 1.5em;
+    }
+}
+.comic-top{
+    padding-top: 90px;
+}

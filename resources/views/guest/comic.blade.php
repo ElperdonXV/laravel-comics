@@ -6,18 +6,23 @@
 
 @section('content')
 {{-- @dd($comic) --}}
-<div class="container-90 relative">
-    <div class="title">
+<div class="bg-prod">
+    <div class="container-90 relative">
+    <div class="title jumbo-img">
         <img src="{{$comic['thumb']}}" alt="">
     </div>
-    <h2>{{$comic['title']}}</h2>
-    <span>{{$comic['price']}}</span>
-    <span>AVAIBLE</span>
-    <button><select name="Check Avaibility" id="">
-        <option value="ciao">Ciao</option>
-        <option value="hello">Hello</option>
-    </select></button>
-    <p>{{$comic['description']}}</p>
+    <div class="comic-title">
+        <h2>{{$comic['title']}}</h2>
+        <span>{{$comic['price']}}</span>
+    </div>
+    <div class="comic-top">
+            <span>AVAIBLE</span>
+            <button><select name="Check Avaibility" id="">
+            <option value="ciao">Ciao</option>
+            <option value="hello">Hello</option>
+            </select></button>
+            <p>{{$comic['description']}}</p>
+    </div>
     <div class="credits">
         <div class="artist">
             <h2>Artist:</h2>
@@ -36,5 +41,6 @@
             </ul>
         </div>
     </div>
+</div>
 </div>
 @endsection

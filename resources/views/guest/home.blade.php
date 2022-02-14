@@ -7,7 +7,7 @@
 @section('content')
     <div class="bg-prod">
         <div class="container-90 relative">
-            <div class="title">
+            <div class="title jumbo-text">
                 <h2>Current Series</h2>
             </div>
             <div class="products">
