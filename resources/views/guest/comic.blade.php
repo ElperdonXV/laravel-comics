@@ -6,8 +6,10 @@
 
 @section('content')
 {{-- @dd($comic) --}}
-<div class="container-90">
-    <img src="{{$comic['thumb']}}" alt="">
+<div class="container-90 relative">
+    <div class="title">
+        <img src="{{$comic['thumb']}}" alt="">
+    </div>
     <h2>{{$comic['title']}}</h2>
     <span>{{$comic['price']}}</span>
     <span>AVAIBLE</span>

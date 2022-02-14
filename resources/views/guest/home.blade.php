@@ -6,7 +6,10 @@
 
 @section('content')
     <div class="bg-prod">
-        <div class="container-90">
+        <div class="container-90 relative">
+            <div class="title">
+                <h2>Current Series</h2>
+            </div>
             <div class="products">
                 @foreach($comics as $comic)
                 <div class="product">
