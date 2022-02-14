@@ -9361,6 +9361,10 @@ html {
   padding-top: 90px;
 }
 
+.comic-top img {
+  max-height: 250px;
+}
+
 .justify-between {
   display: flex;
   justify-content: space-between;
@@ -9409,6 +9413,33 @@ html {
 
 .avaible .right i {
   align-self: center;
+}
+
+.credits {
+  padding: 40px 0;
+}
+
+.artist,
+.writers {
+  width: 50%;
+}
+
+.artist a,
+.writers a {
+  color: #0282F9;
+}
+
+.artist a:hover,
+.writers a:hover {
+  opacity: 0.8;
+}
+
+.comic-name h2 a {
+  color: white;
+}
+
+.comic-name h2 a:hover {
+  color: #0282F9;
 }
 
 .header__nav {
@@ -9547,6 +9578,10 @@ h1 {
   border: 3px solid #0282F9;
 }
 
+.footer-end #button:hover {
+  background-color: #0282F9;
+}
+
 .footer-end .social {
   display: flex;
   justify-content: space-between;
@@ -9563,5 +9598,14 @@ h1 {
   display: flex;
   justify-content: space-between;
   gap: 10px;
+  cursor: pointer;
+}
+
+.footer-menu li {
+  margin-bottom: 5px;
+}
+
+.footer-menu li a:hover {
+  color: white;
 }
 

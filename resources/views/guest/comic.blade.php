@@ -29,28 +29,28 @@
                         </div>
                     </div>
                     <p class="info-comic">{{$comic['description']}}</p>
+                    <div class="credits justify-between">
+                        <div class="artist">
+                            <h2>Artist:</h2>
+                            <ul>
+                                @foreach($comic['artists'] as $artist)
+                                    <li><a href="">{{$artist}}</a></li>
+                                @endforeach
+                            </ul>
+                        </div>
+                        <div class="writers">
+                            <h2>Writers:</h2>
+                            <ul>
+                                @foreach($comic['writers'] as $writer)
+                                     <li><a href="">{{$writer}}</a></li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <img src="{{asset('img/adv.jpg')}}" alt="">
             </div>
-    </div>
-    <div class="credits">
-        <div class="artist">
-            <h2>Artist:</h2>
-            <ul>
-                @foreach($comic['artists'] as $artist)
-                    <li><a href="">{{$artist}}</a></li>
-                @endforeach
-            </ul>
-        </div>
-        <div class="writers">
-            <h2>Writers:</h2>
-            <ul>
-                @foreach($comic['writers'] as $writer)
-                    <li><a href="">{{$writer}}</a></li>
-                @endforeach
-            </ul>
         </div>
     </div>
-</div>
 </div>
 @endsection

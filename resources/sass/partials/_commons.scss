@@ -116,6 +116,9 @@ html{
 }
 .comic-top{
     padding-top: 90px;
+    img{
+        max-height: 250px;
+    }
 }
 
 .justify-between{
@@ -157,6 +160,31 @@ html{
         justify-content: center;  
         i{
             align-self: center;
+        }
+    }
+}
+
+.credits{
+    padding: 40px 0;
+}
+.artist, .writers{
+    width: 50%;
+    a{
+        color: #0282F9;
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+
+}
+
+.comic-name{
+    h2{
+        a{
+            color: white;
+            &:hover{
+                color: #0282F9;
+            }
         }
     }
 }
